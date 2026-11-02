@@ -1,0 +1,36 @@
+# ==============================================================================
+# INDRA Platform .gitignore
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Caches and runtime logs
+.pytest_cache/
+*.log
+.DS_Store
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large archives and external ocean basin dumps exceeding GitHub limits (>50MB)
+*.7z
+DEM_SRTM.7z
+data_processed/DEM_SRTM/*.tif
+
+# Exclude non-target ocean basins from IBTrACS (keep target North Indian Ocean: ibtracs.NI.list.v04r01.csv)
+dataset/ibtracs.ALL*
+dataset/ibtracs.since1980*
+dataset/ibtracs.WP*
+dataset/ibtracs.SI*
+dataset/ibtracs.NA*
+dataset/ibtracs.EP*
+dataset/ibtracs.SP*
+dataset/*.pdf

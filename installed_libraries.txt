@@ -1,0 +1,65 @@
+# ==============================================================================
+# BASELINE INSTALLED LIBRARIES (Snapshot taken at Project Audit: 2026-10-31)
+# ==============================================================================
+Package            Version
+------------------ ----------
+annotated-types    0.8.0
+anyio              4.15.1
+certifi            2026.10.23
+charset-normalizer 3.5.2
+h11                0.16.0
+httpcore           1.0.9
+httpx              0.28.1
+idna               3.20
+numpy              2.5.4
+ollama             0.6.3
+packaging          26.3
+pandas             3.1.0
+pip                26.2.2
+pydantic           2.14.2
+pydantic_core      2.50.2
+pypdf              6.21.4
+python-dateutil    3.0.0
+requests           2.34.2
+setuptools         84.2.1
+six                1.17.0
+typing_extensions  4.16.0
+typing-inspection  0.4.4
+tzdata             2026.6
+urllib3            2.8.0
+wheel              0.48.0
+
+# ==============================================================================
+# ADDITIONAL / NEWLY INSTALLED LIBRARIES (Strict Minimal Running Stack)
+# All heavy local GPU training / CUDA compilation packages have been uninstalled.
+# Format: <package-name>==<version> | Installed for: <purpose> | Date: <timestamp>
+# ==============================================================================
+brotli==1.2.1                | Installed for: py7zr archive dependency (extracting DEM_SRTM.7z) | Date: 2026-10-31T16:05:28.070032
+cloudpickle==3.1.2           | Installed for: scikit-learn runtime dependency | Date: 2026-10-31T16:05:28.070032
+et-xmlfile==2.0.0            | Installed for: openpyxl Excel reader dependency | Date: 2026-10-31T16:05:28.070032
+inflate64==1.0.4             | Installed for: py7zr archive dependency | Date: 2026-10-31T16:05:28.070032
+joblib==1.6.0                | Installed for: scikit-learn multiprocessing model runner | Date: 2026-10-31T16:05:28.070032
+lightgbm==4.7.0              | Installed for: District crop yield & quantile inference model | Date: 2026-10-31T16:05:28.070032
+multivolumefile==0.2.3       | Installed for: py7zr archive dependency | Date: 2026-10-31T16:05:28.070032
+narwhals==2.28.0             | Installed for: scikit-learn dataframe compatibility layer | Date: 2026-10-31T16:05:28.070032
+openpyxl==3.1.5              | Installed for: Excel parser for Soil surface data format.xlsx | Date: 2026-10-31T16:05:28.070032
+psutil==7.2.2                | Installed for: System process / resource monitor | Date: 2026-10-31T16:05:28.070032
+py7zr==1.1.4                 | Installed for: SRTM Digital Elevation Model 7z extractor | Date: 2026-10-31T16:05:28.070032
+pyarrow==26.0.0              | Installed for: Parquet columnar data loader / exporter | Date: 2026-10-31T16:05:28.070032
+pybcj==1.0.8                 | Installed for: py7zr archive dependency | Date: 2026-10-31T16:05:28.070032
+pycryptodomex==3.24.1        | Installed for: py7zr archive dependency | Date: 2026-10-31T16:05:28.070032
+pyppmd==1.3.1                | Installed for: py7zr archive dependency | Date: 2026-10-31T16:05:28.070032
+scikit-learn==1.9.1          | Installed for: Random Forest & preprocessing inference pipeline | Date: 2026-10-31T16:05:28.070032
+scipy==1.18.1                | Installed for: Scientific math / distribution calculations | Date: 2026-10-31T16:05:28.070032
+texttable==1.7.2             | Installed for: py7zr archive dependency | Date: 2026-10-31T16:05:28.070032
+threadpoolctl==3.7.0         | Installed for: Threadpool control for CPU inference | Date: 2026-10-31T16:05:28.070032
+xgboost==3.4.1               | Installed for: Multi-horizon cyclone & crop yield inference model | Date: 2026-10-31T16:05:28.070032
+
+flatbuffers==25.12.19        | Installed for: ONNX Runtime binary serialization runtime | Date: 2026-10-31T16:34:13.188158
+protobuf==7.36.2             | Installed for: ONNX Runtime protobuf graph parser | Date: 2026-10-31T16:34:13.188158
+onnxruntime==1.31.1          | Installed for: High-speed pure-inference engine for exported models | Date: 2026-10-31T16:34:13.188158
+lxml==6.1.3                  | Installed for: python-docx XML parser dependency | Date: 2026-11-01T11:48:27.000000
+python-docx==1.2.0           | Installed for: Generating Microsoft Word DOCX technical dossier and evaluation report | Date: 2026-11-01T11:48:27.000000
+Pillow==13.0.0               | Installed for: python-pptx image support | Date: 2026-11-02T09:54:09.000000
+XlsxWriter==3.3.1            | Installed for: python-pptx chart dependency | Date: 2026-11-02T09:54:09.000000
+python-pptx==1.0.2           | Installed for: Generating presentation slides for Design of Smart Cities | Date: 2026-11-02T09:54:09.000000
